@@ -1,0 +1,229 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/* -------- */
+
+*{
+	box-sizing: border-box;
+}
+
+.white{
+	color: white;
+}
+
+.red{
+	color: #AA0601;
+}
+
+.pink{
+	color: #FBF2F2;
+}
+
+.black{
+	color: #000;
+}
+
+.d-brown{
+	background-color: #5F3E2D;
+}
+
+.l-brown{
+	background-color: #B75929;
+}
+
+.bg-red{
+	background-color: #AA0601;
+}
+
+.container{
+	width: 1296px;
+	margin: 0 auto;
+}
+
+.py-16{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.py-24{
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.py-80{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.mr-8{
+	margin-right: 8px;
+}
+
+.mr-64{
+	margin-right: 64px;
+}
+
+.mt-32{
+	margin-top: 32px;
+}
+
+.mb-80{
+	margin-bottom: 80px;
+}
+
+.flex{
+	display: flex;
+}
+
+.wrap{
+	flex-wrap: wrap;
+}
+
+.space-between{
+	justify-content: space-between;
+}
+
+.align-center{
+	align-items: center;
+}
+
+.text-center{
+	text-align: center;
+}
+
+
+.nav{
+	background-color: #AA0601;
+}
+
+.logo{
+	width: 80px;
+	height: 100%;
+}
+
+.nav-item a{
+	text-decoration: none;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.tab-item{
+	width: 33.333%;
+	border: 1px solid #DCDCDC;
+	text-align: center;
+}
+
+.tab-on{
+	border-bottom: 8px solid #AA0601;
+}
+
+.tab-item a{
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 48px;
+}
+
+.banner img{
+	width: 960px;
+	height: 296px;
+}
+
+.tab-title{
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 42px;
+	line-height: 63px;
+}
+
+.tab-subtitle{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 48px;
+}
+
+.card{
+	width: 24%;
+}
+
+.card img{
+	width: 306px;
+}
+
+.card-text{
+	font-size: 24px;
+	line-height: 36px;
+	font-family: 'Roboto';
+}
+
+.text-regular{
+	font-weight: 400;
+}
+
+.text-medium{
+	font-weight: 500;
+}
+
+.color-box{
+	border-radius: 4px;
+	width: 24px;
+	height: 24px;
+}
+
+.pagination{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
