@@ -117,6 +117,10 @@ a{
 	margin-right: 8px;
 }
 
+.mr-20{
+	margin-right: 20px;
+}
+
 .mr-32{
 	margin-right: 32px;
 }
@@ -302,10 +306,19 @@ a{
 	color: white;
 }
 
-.social-icons  img{
+.social-icons li img{
 	width: 48px;
 	height: 48px;
 }
+
+.social-icons li{
+	margin-right: 32px;
+}
+
+.social-icons li:last-child {
+	margin-right: 0px;
+}
+
 
 footer .phone, footer .email{
 	font-family: 'Noto Sans TC', sans-serif;
@@ -318,6 +331,7 @@ footer .phone, footer .email{
 	font-size: 36px;
 	color: white;
 }
+
 .copywrite{
 	font-family: 'Roboto';
 	font-size: 16px;
@@ -332,11 +346,10 @@ footer .phone, footer .email{
 }
 
 
-
+/* tablet */
 @media(max-width: 992px){
 	.container{
 		width: 696px;
-		/* width: 920px; */
 	}
 
 	.tab-list{
@@ -357,6 +370,60 @@ footer .phone, footer .email{
 	
 	.card img{
 		width: 336px;
+	}
+
+	.social-icons li img{
+		width: 40px;
+		height: 40px;
+	}
+	
+	.social-icons li{
+		margin-right: 16px;
+	}
+	
+	.social-icons li:last-child {
+		margin-right: 0px;
+	}
+
+}
+
+/* phone */
+@media(max-width: 767px){
+	.container{
+		width: 696px;
+	}
+
+	.tab-list{
+		width: 100%;
+	}
+
+	.banner1{
+		background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true);
+	}
+
+	.banner2{
+		background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true);
+	}
+
+	.card{
+		width: 48%;
+	}
+	
+	.card img{
+		width: 336px;
+	}
+
+	.social-icons li img{
+		width: 40px;
+		height: 40px;
+	}
+	
+	.social-icons li{
+		margin-right: 16px;
+	}
+	
+	.social-icons li:last-child {
+		margin-right: 0px;
 	}
 }
 
