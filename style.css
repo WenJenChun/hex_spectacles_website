@@ -150,6 +150,10 @@ a{
 	justify-content: space-between;
 }
 
+.flex-center{
+	justify-content: center;
+}
+
 .align-center{
 	align-items: center;
 }
@@ -176,6 +180,11 @@ a{
 	font-weight: 400;
 }
 
+.tab-list{
+	width: 1296px;
+	margin: 0 auto;
+}
+
 .tab-item{
 	width: 33.333%;
 	border: 1px solid #DCDCDC;
@@ -194,9 +203,19 @@ a{
 	line-height: 48px;
 }
 
-.banner img{
+.banners .banner1, .banners .banner2{
 	width: 960px;
 	height: 296px;
+}
+
+.banner1{
+	background-size: cover;
+	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-1.png?raw=true);
+}
+
+.banner2{
+	background-size: cover;
+	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-2.png?raw=true);
 }
 
 .tab-title{
@@ -283,7 +302,7 @@ a{
 	color: white;
 }
 
-.social-cons img{
+.social-icons  img{
 	width: 48px;
 	height: 48px;
 }
@@ -303,13 +322,42 @@ footer .phone, footer .email{
 	font-family: 'Roboto';
 	font-size: 16px;
 	line-height: 24px;
-	
+
 }
 
 .terms{
 	font-family: 'Noto Sans TC', sans-serif;
 	font-size: 14px;
 	line-height: 21px;
+}
+
+
+
+@media(max-width: 992px){
+	.container{
+		width: 696px;
+		/* width: 920px; */
+	}
+
+	.tab-list{
+		width: 100%;
+	}
+
+	.banner1{
+		background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true);
+	}
+
+	.banner2{
+		background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true);
+	}
+
+	.card{
+		width: 48%;
+	}
+	
+	.card img{
+		width: 336px;
+	}
 }
 
 
