@@ -450,17 +450,49 @@ footer .phone, footer .email{
 		width: 100%;
 	}
 
+	footer{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.social-icons{
+		margin-left: auto;
+	}
+
 	.social-icons li img{
-		width: 40px;
-		height: 40px;
+		width: 24px;
+		height: 24px;
 	}
 	
 	.social-icons li{
-		margin-right: 16px;
+		margin-right: 8px;
 	}
 	
 	.social-icons li:last-child {
 		margin-right: 0px;
+	}
+
+	footer .phone, footer .email{
+		font-family: 'Noto Sans TC', sans-serif;
+		line-height: 24px;
+		font-size: 16px;
+		color: white;
+	}
+
+	.material-symbols-outlined{
+		font-size: 18px;
+	}
+
+	.footer-nav{
+		display: none;
+	}
+
+	hr .flex{
+		display: block;
+	} 
+
+	.terms ul {
+		display: block;
 	}
 }
 
