@@ -51,6 +51,8 @@ a{
 	text-decoration: none;
 }
 
+
+
 /* -------- */
 
 *{
@@ -131,6 +133,14 @@ a{
 
 .mr-64{
 	margin-right: 64px;
+}
+
+.mt-8{
+	margin-top: 8px;
+}
+
+.mt-16{
+	margin-top: 16px;
 }
 
 .mt-32{
@@ -351,13 +361,16 @@ footer .phone, footer .email{
 	font-family: 'Roboto';
 	font-size: 16px;
 	line-height: 24px;
-
 }
 
 .terms{
 	font-family: 'Noto Sans TC', sans-serif;
 	font-size: 14px;
 	line-height: 21px;
+}
+
+.p-footer{
+	display: none;
 }
 
 
@@ -400,6 +413,10 @@ footer .phone, footer .email{
 		margin-right: 0px;
 	}
 
+	.p-footer{
+		display: none;
+	}
+
 }
 
 /* phone */
@@ -439,6 +456,11 @@ footer .phone, footer .email{
 
 	.tab-list{
 		width: 100%;
+	}
+
+	.tab-item a{
+		font-size: 16px;
+		line-height: 24px;
 	}
 
 	.card{
@@ -483,17 +505,15 @@ footer .phone, footer .email{
 		font-size: 18px;
 	}
 
-	.footer-nav{
+	footer .container{
 		display: none;
 	}
 
-	hr .flex{
-		display: block;
-	} 
-
-	.terms ul {
+	.p-footer{
 		display: block;
 	}
+
+	
 }
 
 
